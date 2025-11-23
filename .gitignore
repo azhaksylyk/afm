@@ -1,0 +1,79 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Bytecode cache
+*.cache
+.ipynb_checkpoints/
+
+# -------------------------
+# IDE / Editors
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Project data and outputs
+# -------------------------
+
+# Any datasets
+data/*.csv
+data/*.xlsx
+data/*.xls
+data/*.json
+data/*.tsv
+data/*.txt
+
+# except sample/example files
+!data/.gitkeep
+
+data
+
+# -------------------------
+# Models
+# -------------------------
+saved_models/
+*.bin
+*.pt
+*.h5
+
+# SentenceTransformer downloaded models cache
+~/.cache/
+cache/
+models/
+
+# Transformers cache
+huggingface/
+hf_cache/
+transformers_cache/
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Build artifacts
+# -------------------------
+dist/
+build/
+*.egg-info/
